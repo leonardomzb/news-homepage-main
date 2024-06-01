@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/style.css">
+
+  <title>Frontend Mentor | News homepage</title>
+
+</head>
+<body>
+ <header id="header">
+  <img class="logo" src="assets/images/logo.svg" alt="web page logo">
+  <div class="nav-menu" id="nav-menu">
+    <button title="Hide navigation menu" id="close-menu-icon" class="close-menu-icon"><img src="assets/images/icon-menu-close.svg" alt="Hide navigation menu"></button>
+    <nav>    
+      <ul role="menubar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">New</a></li>
+        <li><a href="#">Popular</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Categories</a></li>
+      </ul>
+    </nav>
+  </div>  
+  <button title="Show navigation menu" id="open-menu-icon" class="navigation-icon"><img src="assets/images/icon-menu.svg" alt="Show navigation menu"></button>
+ </header>
+ <main id="main">
+    <div class="container">
+      <section class="latest-news-section">
+        <img src="assets/images/image-web-3-desktop.jpg" alt="Main new ilustration">
+        <div class="latest-news-grid">
+          <div>
+            <h1>The Bright Future of Web 3.0?</h1>
+          </div>
+          <div>
+            <div>
+              <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                But is it really fulfilling its promise?</p>
+            </div>   
+            <button>Read more</button> 
+          </div>                   
+        </div>        
+      </section>
+  
+      <section class="news-section">
+        <h2>New </h2>
+
+        <div>          
+          <h3><a href="#">Hydrogen VS Electric Cars</a></h3>          
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+
+        <div>
+          <h3><a href="#">The Downsides of AI Artistry</a></h3>          
+          <p>What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+
+        <div>
+          <h3><a href="#">Is VC Funding Drying Up?</a></h3>          
+          <p class="final-paragraph">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </section>
+    </div>    
+ 
+    <section class="old-news-section">
+      <div>
+        <img src="assets/images/image-retro-pcs.jpg" alt="News ilustration image">
+        <div class="util-flex">
+          <p class="old-news-number">01</p>
+          <h3><a href="">Reviving Retro PCs</a></h3>
+          <p>What happens when old PCs are given modern upgrades?</p>
+       </div>
+      </div>
+      
+      <div>
+        <img src="assets/images/image-top-laptops.jpg" alt="News ilustration image">
+        <div class="util-flex">
+          <p class="old-news-number">02</p>
+          <h3><a href="">Top 10 Laptops of 2022</a></h3>
+          <p>Our best picks for various needs and budgets.</p>          
+        </div>
+      </div>
+
+      <div>
+        <img src="assets/images/image-gaming-growth.jpg" alt="News ilustration image">
+        <div class="util-flex">
+          <p class="old-news-number">03</p>
+          <h3><a href="">The Growth of Gaming</a></h3>
+          <p>How the pandemic has sparked fresh opportunities.</p> 
+        </div>
+      </div>
+    </section>    
+ </main>
+ 
+ <script src="scripts/script.js"></script>
+</body>
+</html>
